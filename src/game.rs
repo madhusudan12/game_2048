@@ -2,9 +2,9 @@
 use std::time::Duration;
 
 enum GameState{
-    win,
-    loose,
-    playing,
+    Win,
+    Loose,
+    Playing,
 }
 
 struct Player{
@@ -28,5 +28,10 @@ struct Game{
 }
 
 pub fn start_game(){
+    println!("Game started");
 
+}
+pub fn continue_game(){
+    println!("Continuing the game");
+        
 }
